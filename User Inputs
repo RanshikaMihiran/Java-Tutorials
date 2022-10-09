@@ -1,0 +1,30 @@
+package Tutorials;
+
+import java.util.Scanner;
+
+public class Getting_User_Inputs {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter some number : ");
+		int number = sc.nextInt();
+		System.out.println("The Entered number is :"+number);
+		System.out.println();
+		
+		System.out.println("Enter some decimal : ");
+		double decimal = sc.nextDouble();
+		System.out.println("The Entered decimal is :"+decimal);
+		System.out.println();
+		
+		
+		System.out.println("Enter some character : ");
+		String character = sc.next();
+		System.out.println("The Entered Character is :"+character);
+	
+		
+		
+
+	}
+
+}
