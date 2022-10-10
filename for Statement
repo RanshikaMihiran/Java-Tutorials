@@ -1,0 +1,23 @@
+package Tutorials;
+
+public class Myclass {
+	
+	
+
+	public static void main(String[] args) {
+		
+		int [] myArry = {100,200,300,400,500};
+		
+		
+		for(int index=0; index<5; index++) {
+			System.out.println(myArry[index]);
+		}
+		
+		//for each
+		for (int i : myArry) {
+			System.out.print(i+ ",");
+		}
+		
+	}
+
+}
