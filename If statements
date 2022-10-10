@@ -1,0 +1,25 @@
+package Tutorials;
+
+public class Myclass {
+	
+	/*
+	 * == is equal to
+	 * != is not equal
+	 * > is greater than
+	 * < is less than
+	 * >= is greater than and equals to
+	 * <= is less than or equals to
+	 */
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		
+		if(x==10) {
+			System.out.println("X equals to 10");
+		}else {
+			System.out.println("X not equals to 10");
+		}
+	}
+
+}
