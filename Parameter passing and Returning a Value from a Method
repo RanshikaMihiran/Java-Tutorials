@@ -1,0 +1,39 @@
+package Tutorials;
+
+public class Myclass {
+	
+	
+	public static void main(String[] args) {
+		
+	
+	sayHello("Ranshika");
+	sayHello("Mihiran");
+	sayHello("Abeykoon");
+	
+	System.out.println("=======================");
+	
+	Add(10, 20);
+	Add(100, 200);
+	Add(1000, 2000);
+	
+	System.out.println("=======================");
+	
+	int sum = Sum(500, 500);
+	System.out.println(sum);
+	
+	}
+	
+	public static void sayHello(String name) {
+		System.out.println("Hello " +name);
+	}
+	
+	public static void Add(int a,int b ) {
+		System.out.println(a+b);
+	}
+	
+	public static int Sum(int a,int b ) {
+		//System.out.println(a+b);
+		return(a+b);
+	}
+
+}
