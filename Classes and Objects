@@ -1,0 +1,75 @@
+
+//Student Class
+
+package Tutorials;
+
+public class Student {
+	
+	
+	int id;
+	String name;
+	int age;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+
+}
+
+
+//MainClass
+
+package Tutorials;
+
+public class Myclass {
+	
+	
+	public static void main(String[] args) {
+		
+	Student Ranshika = new Student();
+	Student Amal = new Student();
+	Student Amara = new Student();
+	
+	Ranshika.id = 100;
+	Ranshika.name = "Ranshika";
+	Ranshika.age = 22;
+	
+	
+	
+	Amal.id = 200;
+	Amal.name = "Amal";
+	Amal.age = 25;
+	
+	
+	Amara.setId(300);
+	Amara.setName("Amara");
+	Amara.setAge(28);
+	
+	System.out.println(Ranshika.name + " is "+Ranshika.age+ " old.");
+	System.out.println(Amal.name + " is "+Amal.age+ " old.");
+	System.out.println(Amara.name + " is "+Amara.age+ " old.");
+	
+	}
+	
+
+}
+
+
