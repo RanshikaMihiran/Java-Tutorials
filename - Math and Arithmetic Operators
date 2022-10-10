@@ -1,0 +1,18 @@
+package Tutorials;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		
+		int x, y , answer;
+		
+		x = 50;
+		y = 20;
+		
+		answer  = x+y ;
+	
+		System.out.println("Answer : " +answer);
+		
+	}
+
+}
