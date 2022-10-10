@@ -1,0 +1,21 @@
+package Tutorials;
+
+public class Myclass {
+	
+	
+
+	public static void main(String[] args) {
+		
+		String myString = "Hello World";
+		int myStringLength = myString.length();
+	    String myStringInUpperCase = myString.toUpperCase();
+		
+		System.out.println(myString);
+		System.out.println(myStringLength);
+		System.out.println(myStringInUpperCase);
+		
+		System.out.println(myString.replace('e', 'a'));
+		System.out.println(myString.indexOf('o'));
+	}
+
+}
