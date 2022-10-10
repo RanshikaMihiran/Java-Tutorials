@@ -1,0 +1,33 @@
+package Tutorials;
+
+public class Myclass {
+	
+	
+
+	public static void main(String[] args) {
+		
+		int score =  80;
+		
+		switch (score) {
+		case 100:
+		case 95:
+		case 80:
+			System.out.println("A");
+			break;
+		case 75 :
+			System.out.println("B");
+			break;
+		case 65 : 
+			System.out.println("C");
+			break;
+		case 50 :
+			System.out.println("D");
+
+		default:
+			System.out.println("Invalid Number");
+			break;
+		}
+	
+	}
+
+}
