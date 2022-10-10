@@ -1,0 +1,21 @@
+package Tutorials;
+
+public class Myclass {
+	
+	
+
+	public static void main(String[] args) {
+		
+		int sublect1 = 40;
+		int subject2 = 60;
+		
+		// && AND (consider both condition)  || OR (either one codition is true)
+		
+		if(sublect1 >= 35 && subject2>=50) {
+			System.out.println("Pass");
+		}else {
+			System.out.println("Fail");
+		}
+	}
+
+}
