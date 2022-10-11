@@ -1,0 +1,39 @@
+package Tutorials;
+
+/*
+ * Modifier      class   package    Subclass   world
+ * public         Y         Y         Y			     Y
+ * protected      Y		      Y         Y          N
+ * no modifier    Y         Y         N          N
+ * private        Y         N         N          N
+ */
+
+public class Student {
+	
+	public String name;
+	public int age;
+	
+}
+
+
+
+//Main Class
+package Tutorials;
+
+public class Myclass {
+	
+	
+	public static void main(String[] args) {
+		
+		Student stu = new Student();
+		stu.age = 10;
+		stu.name = "Ranshika";
+		
+		
+		
+		  
+	}
+	
+
+}
+
