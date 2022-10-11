@@ -1,0 +1,38 @@
+package Tutorials;
+
+/*
+ * A final class cannot be subclassed.
+ * A final method cannot be overridden by subclass.
+ * A final variable can only be initialized once. 
+ */
+
+public class Final extends Student{
+	
+	public final int number;
+	
+    Final (){
+    	number  = 10;
+    }
+}
+
+
+
+//============================
+
+package Tutorials;
+
+public class Myclass {
+	
+	
+	public static void main(String[] args) {
+		
+		Final hello = new Final();
+		
+		//hello.number = 20;   can't .....only once.
+		
+		
+		  
+	}
+	
+
+}
