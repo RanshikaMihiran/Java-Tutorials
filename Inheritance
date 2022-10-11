@@ -1,0 +1,60 @@
+package Tutorials;
+
+public class Polygon {
+	
+	protected int height;
+	protected int width;
+	
+	public void set_values(int a, int b) {
+		height = a;
+		width = b;
+	}
+	
+	
+}
+
+//============================================
+
+package Tutorials;
+
+public class Rectangle extends Polygon {
+      
+	public double area() {
+		return (height*width);
+	}
+}
+
+/============================================
+
+
+package Tutorials;
+
+public class Triangle extends Polygon{
+    
+	
+	public double area() {
+		return (height*width)/2;
+	}
+}
+
+
+/============================================
+
+package Tutorials;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		
+		Rectangle rec = new Rectangle();
+		Triangle tri = new Triangle();
+		
+		rec.set_values(10, 10);
+		tri.set_values(10, 10);
+		
+		System.out.println("Area of Rectangle : " +rec.area());
+		System.out.println("Area of Triangle  : " +tri.area());
+	}
+
+}
