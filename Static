@@ -45,3 +45,69 @@ public class Myclass {
 
 }
 
+
+//=========================================================================================
+
+package Tutorials;
+
+public class Student {
+	
+	String name;
+	int age;
+	static int NoOfStudents = 0;
+	
+	
+	Student (){
+		NoOfStudents++;
+	}
+	
+	public static int getNoOfStudents() {
+		
+		return NoOfStudents;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+
+}
+
+//mainclass
+
+package Tutorials;
+
+public class Myclass {
+	
+	
+	public static void main(String[] args) {
+		
+		//static member belong to the class insted of a specific instance
+		
+		Student Mark  = new  Student();
+		System.out.println(Mark.getNoOfStudents());
+		Student  Tom = new Student();
+		System.out.println(Tom.getNoOfStudents());
+		
+		System.out.println(Student.getNoOfStudents());
+		
+		
+		
+		  
+	}
+	
+
+}
+
+
