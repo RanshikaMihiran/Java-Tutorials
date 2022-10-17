@@ -1,0 +1,52 @@
+package lesson;
+
+import java.util.ArrayList;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		 
+		int simple_array [] = new int [5];
+		
+	     ArrayList<Integer> myList = new ArrayList<>(5); 
+	     myList.add(10);
+	     myList.add(20);
+	     myList.add(30);
+	     myList.add(40);
+	     myList.add(50);
+	     myList.add(60);
+	     
+	     
+	     
+	     for (Integer integer : myList) {
+			System.out.println(integer);
+		}
+	     System.out.println("Size = "+myList.size());
+	     myList.remove(2);
+	     
+	    
+	     //==============================
+	     
+	     for (Integer integer : myList) {
+				System.out.println(integer);
+			}
+		 System.out.println("Size = "+myList.size());
+	     
+	   
+		 //====================================
+		 myList.set(4, 600);
+	    for (Integer integer : myList) {
+			System.out.println(integer);
+		}
+	    
+	    //===================================
+	   
+	
+	}
+
+
+}
+	
+
+
