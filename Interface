@@ -1,0 +1,42 @@
+package lesson;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Bank abc  = new Bank_ABC();
+		
+
+	}
+
+}
+
+
+//===========================
+
+package lesson;
+
+public interface Bank {
+	
+	public int getInterestRate();
+
+}
+
+
+//===============================
+
+package lesson;
+
+public class Bank_ABC implements Bank {
+	
+	public int getInterestRate() {
+		return 5;
+	}
+	
+
+}
+
+/// class extends
+/// interface class implements
+// interface interface extends
+
